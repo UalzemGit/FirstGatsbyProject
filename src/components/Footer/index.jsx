@@ -47,9 +47,9 @@ const Footer = () => {
                 {description}
                </div>
                <div className="col-6 d-flex justify-content-center align-items-center icons-d-footer">
-                <a href={instagram} target="_blank">< Iconsfooter.Instagram/></a>
-                <a href={github} target="_blank">< Iconsfooter.Github/></a>
-                <a href={linkedin} target="_blank">< Iconsfooter.Linkedin/></a>
+                <a href={instagram} target="_blank" rel="noopener noreferrer">< Iconsfooter.Instagram/></a>
+                <a href={github} target="_blank" rel="noopener noreferrer">< Iconsfooter.Github/></a>
+                <a href={linkedin} target="_blank" rel="noopener noreferrer">< Iconsfooter.Linkedin/></a>
              
              
               

@@ -10,7 +10,7 @@ const About = () => {
 		<div className="container">
 		<div className="row">
 		<div className="col-12 py-4">
-		<h1>About Title</h1>
+		<h1 className="text-gatsby">About Title</h1>
 		<h2>About SubTitle</h2>
 		</div>
 		</div>
@@ -20,6 +20,7 @@ const About = () => {
 		<div className="row">
 		<div className="col-lg-4 col-md-6 col-12">
 		<Card2
+		nameImage="foto01"
 		titleCard="Card 01"
 		textCard="Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, Contrary to popular belief,  making it over 2000 years old. Richard McClintock, a Latin"
 		colorButton="primary"
@@ -27,6 +28,7 @@ const About = () => {
 		</div>
 		<div className="col-lg-4 col-md-6 col-12">
 		<Card2
+		nameImage="foto02"
 		titleCard="Card 02"
 		textCard="It has roots in a piece of classical Latin literature. Contrary to popular belief, Lorem Ipsum is not simply random text. A from 45 BC, making it over 2000 years old. Richard McClintock, a Latin"
 		colorButton="warning"
@@ -34,6 +36,7 @@ const About = () => {
 		</div>
 		<div className="col-lg-4 col-md-6 col-12">
 		<Card2
+		nameImage="foto03"
 		titleCard="Card 03"
 		textCard="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin"
 		colorButton="danger"

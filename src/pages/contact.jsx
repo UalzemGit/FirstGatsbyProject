@@ -15,7 +15,7 @@ import { MdMarkAsUnread, MdPhoneEnabled, MdEditLocation } from "react-icons/md";
 			<div className="container">
 				<div className="row">
 					<div className="col-12 py-4">
-						<h1>Contact Title</h1>
+						<h1 className="text-gatsby">Contact Title</h1>
 						<h2>Contact SubTitle</h2>
 					</div>
 					<div className="col-6">
