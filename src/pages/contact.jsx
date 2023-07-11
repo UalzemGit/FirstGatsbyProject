@@ -19,10 +19,11 @@ import { MdMarkAsUnread, MdPhoneEnabled, MdEditLocation } from "react-icons/md";
 						<h2>Contact SubTitle</h2>
 					</div>
 					<div className="col-md-6 mb-5">
-					<form>
+					<form name="contact" method="POST" data-netlify="true">
+						<input type="hidden" name="form-name" value="contact"/>
 						<div class="mb-3">
 							
-							<input
+							<input name="name"
 							type="text"
 							class="form-control"
 							id="exampleInputName"
@@ -30,7 +31,7 @@ import { MdMarkAsUnread, MdPhoneEnabled, MdEditLocation } from "react-icons/md";
 							/>
 						</div>
 						<div class="mb-3">
-							<input
+							<input name="email"
 							type="email"
 							class="form-control"
 							id="exampleInputEmail1"
@@ -38,7 +39,7 @@ import { MdMarkAsUnread, MdPhoneEnabled, MdEditLocation } from "react-icons/md";
 							/>
 						</div>
 						<div class="mb-3">
-							<textarea
+							<textarea name="message"
 							type="textarea"
 							class="form-control"
 							rows="4"
