@@ -18,7 +18,38 @@ import { MdMarkAsUnread, MdPhoneEnabled, MdEditLocation } from "react-icons/md";
 						<h1 className="text-gatsby">Contact Title</h1>
 						<h2>Contact SubTitle</h2>
 					</div>
-					<div className="col-6">
+					<div className="col-md-6 mb-5">
+					<form>
+						<div class="mb-3">
+							
+							<input
+							type="text"
+							class="form-control"
+							id="exampleInputName"
+							placeholder="Seu Nome"
+							/>
+						</div>
+						<div class="mb-3">
+							<input
+							type="email"
+							class="form-control"
+							id="exampleInputEmail1"
+							placeholder="Email"
+							/>
+						</div>
+						<div class="mb-3">
+							<textarea
+							type="textarea"
+							class="form-control"
+							rows="4"
+							id="exampleFormControlTextarea1"
+							></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-primary">Submit</button>
+                    </form>	
+					</div>
+					<div className="col-md-6">
 						<ul class="list-group">
 							<li class="list-group-item"><MdMarkAsUnread className='icon-contact-size' />Email</li>
 							<li class="list-group-item"><MdPhoneEnabled className='icon-contact-size' />Telefone</li>

@@ -19,6 +19,7 @@ module.exports = {
       linkedin: `https://www.linkedin.com/`,
     },
   },
+
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
@@ -36,7 +37,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `GSD`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
@@ -46,5 +47,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }
